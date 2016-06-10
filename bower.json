@@ -1,0 +1,18 @@
+{
+  "name": "delphic.sass-flexgrid",
+  "homepage": "https://github.com/delphic-digital/delphic.sass-flexgrid",
+  "authors": [
+    "Jeff <jmills@delphicdigital.com>"
+  ],
+  "description": "",
+  "main": "grid.scss",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
