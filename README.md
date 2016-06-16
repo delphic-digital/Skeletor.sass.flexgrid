@@ -1,2 +1,2 @@
-# skeletor.flex-grid
+# skeletor.flex.grid
 Flexbox grid
