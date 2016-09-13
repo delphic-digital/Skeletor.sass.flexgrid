@@ -15,8 +15,6 @@ $column-widths: (
 
 $fallback-class: '.no-flexbox.no-flexboxlegacy.no-flexboxtweener'; //From modernizer
 
-main { padding: 20px; }
-
 .grid {
 	@include display(flex);
 	@include flex(0 1 auto);
