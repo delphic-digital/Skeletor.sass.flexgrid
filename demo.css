@@ -34,7 +34,6 @@ main {
   -moz-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  background: #0A0A0A;
 }
 
 .no-flexbox.no-flexboxlegacy.no-flexboxtweener .grid:after {
@@ -53,8 +52,6 @@ main {
   flex: 1 0 auto;
   position: relative;
   padding: 15px;
-  background: red;
-  border: 1px solid #333333;
   background-clip: content-box;
 }
 
@@ -1402,4 +1399,13 @@ main {
     order: 0;
     -ms-flex-order: 0;
   }
+}
+
+.grid {
+  background: #0A0A0A;
+}
+
+.grid__col {
+  background: red;
+  outline: 1px solid #333333;
 }

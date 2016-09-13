@@ -36,3 +36,14 @@ $xlarge:  $min-xlarge,'no-query' true;
 
 //Plugin core styles
 @import "grid/grid";
+
+//Demo specific styles
+
+.grid {
+	background: #0A0A0A;
+
+	&__col {
+		background: red;
+		outline: 1px solid #333333;
+	}
+}

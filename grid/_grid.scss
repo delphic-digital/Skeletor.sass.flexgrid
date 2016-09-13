@@ -22,7 +22,6 @@ main { padding: 20px; }
 	@include flex(0 1 auto);
 	@include flex-direction(row);
 	@include flex-wrap(wrap);
-	background: #0A0A0A;
 
 	@at-root #{$fallback-class &} {
 		&:after {
@@ -36,8 +35,6 @@ main { padding: 20px; }
 		@include flex(1 0 auto);
 		position: relative;
 		padding: 15px;
-		background: red;
-		border: 1px solid #333333;
 		background-clip: content-box;
 
 		&--sm-pull-0 { right: auto; }
