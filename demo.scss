@@ -1,12 +1,7 @@
 //Included packages with Skeletor
-
 @import "bourbon";
 @import "susy";
 @import "breakpoint";
-
-//Some Skeletor framework dependencies
-
-@import "../Skeletor.sass.utilities/skeletor.sass.utilities";
 
 //Settings from base skeletor project
 
@@ -33,6 +28,10 @@ $small: map-get($breakpoints, small);
 $medium: $min-medium,'no-query' true;
 $large:  $min-large,'no-query' true;
 $xlarge:  $min-xlarge,'no-query' true;
+
+//Some Skeletor framework dependencies
+@import "../Skeletor.sass.utilities/skeletor.sass.utilities";
+@import "../Skeletor.sass.helpers/skeletor.sass.helpers";
 
 //Plugin core styles
 @import "grid/grid";
