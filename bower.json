@@ -5,7 +5,7 @@
     "Jeff <jmills@delphicdigital.com>"
   ],
   "description": "",
-  "main": "grid.scss",
+  "main": "skeletor.sass.flexgrid.scss",
   "license": "MIT",
   "ignore": [
     "**/.*",

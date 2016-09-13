@@ -82,7 +82,7 @@ main { padding: 20px; }
 	}
 }
 
-@include breakpoint($wide){
+@include breakpoint($large){
 	.grid {
 		&__col {
 			@each $column, $column-width in $column-widths {
@@ -99,7 +99,7 @@ main { padding: 20px; }
 	}
 }
 
-@include breakpoint($superwide){
+@include breakpoint($xlarge){
 	.grid {
 		&__col {
 			@each $column, $column-width in $column-widths {
